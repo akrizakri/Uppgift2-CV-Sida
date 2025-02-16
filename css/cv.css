@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap''https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
 
 *{
     box-sizing: border-box;
@@ -32,32 +32,50 @@ header{
 
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 40px 40px;
-    gap: 15px;
-    width: 100%;
-    background-color: #fff;
-    font-family: "Rokkitt", serif;
+    margin: 10px 10px;
+    gap: 10px;
+    width: 90%;
+    font-family: "Sofia Sans", serif;
 }
 
-.pfpcv{
-    display: flex;
+.pfp{
+    width: 200px;
 }
 
 .sizepfp{
     width: 27vw;
 }
 
-.textcv{
-    display: flex;
-    width: auto;
+.summary{
+    width: 200px;
+}
+
+.competence{
+    width: 200px;
+}
+
+.experience{
+    width: 200px;
+}
+
+.education{
+    width: 200px;
+}
+
+.language{
+    width: 200px;
+}
+
+.else{
+    width: 200px;
 }
 
 .name{
-
+    font-size: 50px;
 }
 
 footer{
