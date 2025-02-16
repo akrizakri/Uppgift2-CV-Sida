@@ -33,12 +33,11 @@ header{
 .container{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
     margin: 10px 10px;
     gap: 10px;
-    width: 90%;
+    width: 100%;
     font-family: "Sofia Sans", serif;
 }
 
@@ -48,30 +47,37 @@ header{
 
 .sizepfp{
     width: 27vw;
+    height: auto;
 }
 
 .summary{
     width: 200px;
+    height: auto;
 }
 
 .competence{
     width: 200px;
+    height: auto;
 }
 
 .experience{
     width: 200px;
+    height: auto;
 }
 
 .education{
     width: 200px;
+    height: auto;
 }
 
 .language{
     width: 200px;
+    height: auto;
 }
 
 .else{
     width: 200px;
+    height: auto;
 }
 
 .name{
