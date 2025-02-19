@@ -37,80 +37,21 @@ header{
     flex-wrap: wrap;
     flex-direction: row;
     margin: 40px 40px;
-    gap: 15px;
+    gap: 20px;
 }
 
-.pfp{
-    background-color: #fff;
-    width: 700px;
-    height: 400px;
-    overflow: hidden;
-}
-
-.centerpfp{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+.nametitle{
+    font-family: "Rokkitt",serif;
     width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
 
-.description{
-    background-color: #fff;
-    width: 700px;
-    height: 400px;
-    padding: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.projects{
-    width: 100%;
-    font-family: "Rokkitt", serif;
-    text-transform: uppercase;
-    font-size: 40px;
-    margin-top: 40px;
-    text-shadow: 2px 2px white;
-}
-
-.project1{
-    background-color: #fff;
+.myimg{
+    border-radius: 50%;
     width: 300px;
-    height: 400px;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.project2{
-    background-color: #fff;
-    width: 300px;
-    height: 400px;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.project3{
-    background-color: #fff;
-    width: 300px;
-    height: 400px;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.project4{
-    background-color: #fff;
-    width: 300px;
-    height: 400px;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h4{
-    font-size: 20px;
-    margin-bottom: 15px;
-    font-family: "Rokkitt", serif;
-}
-
-p{
-    font-size: 12px;
+    margin-bottom: 50px;
 }
 
 .projectlink{

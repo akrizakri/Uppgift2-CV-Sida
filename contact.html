@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylecontact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Contact</title>
 
@@ -23,13 +24,35 @@
     </header>
 
     <div class="container">
-        <div class="pfp"> <img src="images/picamandha.jpg" alt="pfp" class="centerpfp"></div>
 
         <div class="description">
+
             <h4>Kontakta mig</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, dolorem aperiam. Sint aliquam inventore minus nisi fuga. Hic iure consectetur debitis quis dolorem ad reprehenderit distinctio, sequi vel enim iste?
-            </p>
+
+            <div class="icons">
+            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://snapchat.com/t/b9LQ8mee" target="_blank" class="fa fa-snapchat"></a>
+            <a href="https://www.linkedin.com/in/amandha-funcke/" target="_blank" class="fa fa-linkedin"></a>
+            </div>
+
+            <form action="#" class="contactform">
+
+                <label for="name">Namn</label>
+                <input type="text" name="Name" id="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="email" required>
+
+                <label for="message">Meddelande</label>
+                <textarea name="Message" id="message" cols="30" rows="6"></textarea>
+
+                <div class="submitbtn">
+                <button type="submit">Skicka Meddelande</button>
+
+                </div>
+
+            </form>
+
         </div>
 
     </div>

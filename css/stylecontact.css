@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
 
 *{
     box-sizing: border-box;
@@ -40,86 +40,101 @@ header{
     gap: 15px;
 }
 
-.pfp{
-    background-color: #fff;
-    width: 700px;
-    height: 400px;
-    overflow: hidden;
-}
-
-.centerpfp{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 100%;
-}
-
 .description{
     background-color: #fff;
-    width: 700px;
-    height: 400px;
+    width: 1000px;
+    height: 1000px;
     padding: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
 }
 
-.projects{
-    width: 100%;
-    font-family: "Rokkitt", serif;
+.contactform {
+    padding: 10px;
+    font-family: "Sofia Sans", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #2f2d31;
     text-transform: uppercase;
-    font-size: 40px;
-    margin-top: 40px;
-    text-shadow: 2px 2px white;
+    text-align: center;
 }
 
-.project1{
-    background-color: #fff;
-    width: 300px;
-    height: 400px;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+.contactform textarea{
+    resize: none;
+    height: 200px;
 }
 
-.project2{
+.contactform input, .contactform textarea {
+    width: 100%;
+    margin: 10px;
+    font-size: 20px;
+    padding: 15px;
     background-color: #fff;
-    width: 300px;
-    height: 400px;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #EBE3F9;
+    outline: none;
+    border-radius: 2px;
+    color: #2f2d31;
 }
 
-.project3{
-    background-color: #fff;
-    width: 300px;
-    height: 400px;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+.contactform .submitbtn {
+    margin-top: 20px;
+    text-align: center;
 }
 
-.project4{
-    background-color: #fff;
-    width: 300px;
-    height: 400px;
+.contactform button {
+    padding: 5px;
+    border-radius: 2px;
+    border-color: transparent;
+    background-color: #D3CCE0;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Rokkitt", serif;
+}
+
+.submitbtn:hover {
+    opacity: 0.50;
+}
+
+.icons{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fa {
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-snapchat {
+    background: #FFCC00;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #0077B5;
+    color: white;
 }
 
 h4{
-    font-size: 20px;
-    margin-bottom: 15px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     font-family: "Rokkitt", serif;
-}
-
-p{
-    font-size: 12px;
-}
-
-.projectlink{
-    background-color: #000;
-    color: #fff;
-    padding: 7px;
-    text-decoration: none;
-    font-family: "Rokkitt", serif;
-    text-transform: uppercase;
 }
 
 footer{

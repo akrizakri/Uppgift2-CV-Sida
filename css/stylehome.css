@@ -41,7 +41,6 @@ header{
 }
 
 .pfp{
-    background-color: #fff;
     width: 700px;
     height: 400px;
     overflow: hidden;
@@ -103,6 +102,12 @@ header{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.projectimg{
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
 h4{
     font-size: 20px;
     margin-bottom: 15px;
@@ -114,12 +119,17 @@ p{
 }
 
 .projectlink{
-    background-color: #000;
+    background-color: #2f2d31;
     color: #fff;
-    padding: 7px;
+    padding: 7px 50px 7px 7px;
+    font-size: 15px;
     text-decoration: none;
     font-family: "Rokkitt", serif;
     text-transform: uppercase;
+}
+
+.projectlink:hover{
+    opacity: 0.50;
 }
 
 footer{
