@@ -42,7 +42,7 @@ header{
 
 .pfp{
     width: 700px;
-    height: 400px;
+    height: auto;
     overflow: hidden;
 }
 
@@ -56,9 +56,27 @@ header{
 .description{
     background-color: #fff;
     width: 700px;
-    height: 400px;
+    height: 412px;
     padding: 25px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkcv{
+    background-color: #2f2d31;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Rokkitt", serif;
+    text-transform: uppercase;
+}
+
+.linkcv:hover{
+    opacity: 0.50;
+}
+
+.linkcvbox{
+    margin-top: 50px;
 }
 
 .projects{

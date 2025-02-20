@@ -28,6 +28,10 @@ header{
     font-weight: 500;
 }
 
+.home:hover{
+    opacity: 0.50;
+}
+
 .container{
     display: flex;
     justify-content: space-evenly;
@@ -42,6 +46,8 @@ header{
     width: 400px;
     height: 400px;
     overflow: hidden;
+    border: 1px #2f2d31 solid;
+    border-radius: 50%;
 }
 
 .sizepfp{
@@ -50,12 +56,13 @@ header{
 
 .cvtext{
     width: 1000px;
-    height: 300px;
+    height: 400px;
 }
 
 .competence{
     width: 100%;
     text-align: center;
+    margin-top: 30px;
 }
 
 .experience{
@@ -79,31 +86,51 @@ header{
 }
 
 .name{
-    font-size: 50px;
+    font-size: 80px;
+    text-align: center;
+    color: #2f2d31;
+    font-family: "Rokkitt", serif;
+    margin: 10px;
+    text-shadow: 2px 2px white;
+    text-transform: uppercase;
 }
 
 li{
     list-style-type: none;
-    font-size: 18px; 
+    font-size: 16px; 
     margin: 10px; 
 }
 
-h1{
-    padding: 20px;
-    margin: 10px;
-    background-color: #2f2d31;
-    font-family: "Rokkitt", serif;
-    color: #ebe3f9;
-    opacity: 0.80;
+hr{
+    margin: 35px;
 }
 
 h2{
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     width: 100%;
+    font-size: 35px;
     background-color: #2f2d31;
     color: #ebe3f9;
     font-family: "Rokkitt", serif;
     text-align: center;
-    opacity: 0.80;
+    opacity: 0.90;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+h4{
+    color: #2f2d31bb;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+b{
+    font-size: 19px;
 }
