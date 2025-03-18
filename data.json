@@ -1,0 +1,55 @@
+{
+	"skills": [
+		"Windows Operativsystem, Windows Server",
+		"Active Directory",
+		"VMware, Hyper-V",
+		"Office 365",
+		"Telefonvana",
+		"Problemlösning"
+	],
+	"xp": [
+		{
+			"title": "NOC-Tekniker",
+			"company": "Real Time Service Cloud, Örebro",
+			"duration": "05/2020 - 01/2024"
+		},
+		{
+			"title": "Supporttekniker",
+			"company": "Tietoevry, Örebro",
+			"duration": "09/2019 - 05/2020"
+		},
+		{
+			"title": "Medarbetare",
+			"company": "Burger kind, Örebro",
+			"duration": "05/2018 - 05/2019"
+		},
+		{
+			"title": "Catering",
+			"company": "Herr Grillman, Örebro",
+			"duration": "06/2018 - 05/2019"
+		},
+		{
+			"title": "Simlinjeassistent",
+			"company": "Strandbadet, Örebro",
+			"duration": "09/2014 - 05/2015"
+		}
+	],
+	"edu": [
+		{
+			"degree": "Introduktion IB",
+			"institution": "Rudbecksgymnasiet, Örebro",
+			"duration": "08/2015 - 06/2016"
+		},
+		{
+			"degree": "Gymnasieexamen",
+			"institution": "NTI-Gymnasiet",
+			"duration": "08/2016 - 06/2019"
+		}
+	],
+	"languages": [
+		"Svenska",
+		"Engelska",
+		"Koreansa",
+		"Ryska"
+	]
+}

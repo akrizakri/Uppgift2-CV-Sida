@@ -37,8 +37,8 @@ header{
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 40px 40px;
-    gap: 20px;
+    margin: 0px 0px;
+    gap: 0px;
     font-family: "Sofia Sans", serif;
 }
 
@@ -60,29 +60,23 @@ header{
 }
 
 .competence{
-    width: 100%;
     text-align: center;
     margin-top: 30px;
 }
 
 .experience{
-    width: 100%;
     text-align: center;
+    margin-top: 30px;
 }
 
 .education{
-    width: 100%;
     text-align: center;
+    margin-top: 30px;
 }
 
 .language{
-    width: 100%;
     text-align: center;
-}
-
-.else{
-    width: 100%;
-    text-align: center;
+    margin-top: 30px;
 }
 
 .name{
@@ -98,15 +92,13 @@ header{
 li{
     list-style-type: none;
     font-size: 16px; 
-    margin: 10px; 
-}
-
-hr{
-    margin: 35px;
+    margin: 20px; 
+    padding: 25px;
+    background-color: #00000011;
 }
 
 h2{
-    padding: 10px;
+    padding: 10px 70px 10px 70px;
     margin: 10px;
     width: 100%;
     font-size: 35px;
@@ -119,18 +111,18 @@ h2{
     font-weight: 300;
 }
 
-h3{
+.xp-title, .edu-degree {
+    font-family: "Sofia Sans", serif;
+    text-transform: uppercase;
     font-size: 25px;
-    font-weight: 800;
-    margin-top: 15px;
+    font-weight: 600;
 }
 
-h4{
+.xp-company, .edu-institution {
     color: #2f2d31bb;
     font-style: italic;
-    margin-bottom: 40px;
 }
 
-b{
-    font-size: 19px;
+.xp-duration, .edu-duration {
+    font-size: 12px;
 }
